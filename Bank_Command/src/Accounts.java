@@ -10,9 +10,9 @@ public class Accounts extends Main {
 	public Accounts(String name,String username, String password,int money){
 		
 		this.name = name;
-		vb.username = username;
-		vb.password = password;
-		vb.money = money;
+		vb.set_user(username);
+		vb.set_pass(password);
+		vb.set_money(money);
 		
 		
 	}
